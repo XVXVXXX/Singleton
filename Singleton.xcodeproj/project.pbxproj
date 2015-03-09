@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F900FB841AADCC4C00A11F07 /* SingletonClass1.m in Sources */ = {isa = PBXBuildFile; fileRef = F900FB831AADCC4C00A11F07 /* SingletonClass1.m */; };
 		F9DE35FC1AAD7E610075A4B5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DE35FB1AAD7E610075A4B5 /* main.m */; };
 		F9DE36041AAD7EB20075A4B5 /* SingletonClass.m in Sources */ = {isa = PBXBuildFile; fileRef = F9DE36031AAD7EB20075A4B5 /* SingletonClass.m */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F900FB821AADCC4C00A11F07 /* SingletonClass1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass1.h; sourceTree = "<group>"; };
+		F900FB831AADCC4C00A11F07 /* SingletonClass1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonClass1.m; sourceTree = "<group>"; };
 		F9DE35F81AAD7E610075A4B5 /* Singleton */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Singleton; sourceTree = BUILT_PRODUCTS_DIR; };
 		F9DE35FB1AAD7E610075A4B5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F9DE36021AAD7EB20075A4B5 /* SingletonClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingletonClass.h; sourceTree = "<group>"; };
@@ -63,6 +66,8 @@
 				F9DE35FB1AAD7E610075A4B5 /* main.m */,
 				F9DE36021AAD7EB20075A4B5 /* SingletonClass.h */,
 				F9DE36031AAD7EB20075A4B5 /* SingletonClass.m */,
+				F900FB821AADCC4C00A11F07 /* SingletonClass1.h */,
+				F900FB831AADCC4C00A11F07 /* SingletonClass1.m */,
 			);
 			path = Singleton;
 			sourceTree = "<group>";
@@ -125,6 +130,7 @@
 			files = (
 				F9DE36041AAD7EB20075A4B5 /* SingletonClass.m in Sources */,
 				F9DE35FC1AAD7E610075A4B5 /* main.m in Sources */,
+				F900FB841AADCC4C00A11F07 /* SingletonClass1.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +244,7 @@
 				F9DE36011AAD7E610075A4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
